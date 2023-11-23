@@ -1,14 +1,14 @@
 body{
     margin: 0;
-    min-height: 100%;
+    min-height: 100vh;
     font-family: Arial;
 }
 
 body *{
     box-sizing: border-box;
 }
-.border-box{
-    min-height: 100%;
+#border-box{
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
